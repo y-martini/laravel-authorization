@@ -1,0 +1,19 @@
+{
+    "name": "soluzione-software/package-name",
+    "require": {
+        "php": "^7.0",
+        "illuminate/support": "^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "SoluzioneSoftware\\PackageName\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "SoluzioneSoftware\\PackageName\\ServiceProvider"
+            ]
+        }
+    }
+}
