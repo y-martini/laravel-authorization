@@ -15,5 +15,8 @@
                 "Webfucktory\\PackageName\\ServiceProvider"
             ]
         }
+    },
+    "config": {
+        "sort-packages": true
     }
 }
