@@ -1,6 +1,6 @@
 <?php
 
-namespace SoluzioneSoftware\PackageName;
+namespace Webfucktory\PackageName;
 
 use Illuminate\Support\ServiceProvider as BaseServiceProvider;
 

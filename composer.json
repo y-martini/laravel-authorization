@@ -1,18 +1,18 @@
 {
-    "name": "soluzione-software/package-name",
+    "name": "webfucktory/package-name",
     "require": {
-        "php": "^7.0",
-        "illuminate/support": "^6.0"
+        "php": "^8.0",
+        "illuminate/support": "^9.0"
     },
     "autoload": {
         "psr-4": {
-            "SoluzioneSoftware\\PackageName\\": "src"
+            "Webfucktory\\PackageName\\": "src"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "SoluzioneSoftware\\PackageName\\ServiceProvider"
+                "Webfucktory\\PackageName\\ServiceProvider"
             ]
         }
     }
