@@ -1,13 +1,13 @@
 {
     "name": "webfucktory/laravel-package-name",
     "require": {
-        "php": "^8.2",
+        "php": "^8.1",
         "illuminate/support": "^10"
     },
     "require-dev": {
-        "orchestra/testbench": "dev-develop",
+        "orchestra/testbench": "^8",
         "phpstan/phpstan": "^1",
-        "squizlabs/php_codesniffer": "dev-master"
+        "squizlabs/php_codesniffer": "^1"
     },
     "autoload": {
         "psr-4": {
