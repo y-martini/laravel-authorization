@@ -1,21 +1,11 @@
 <?php
 
-namespace Webfucktory\PackageName;
+namespace Webfucktory\Laravel\Authorization;
 
 use Illuminate\Support\ServiceProvider as BaseServiceProvider;
 
 class ServiceProvider extends BaseServiceProvider
 {
-    /**
-     * Register any application services.
-     *
-     * @return void
-     */
-    public function register()
-    {
-        //
-    }
-
     /**
      * Bootstrap the application services.
      */

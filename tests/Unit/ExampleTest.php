@@ -1,6 +1,6 @@
 <?php
 
-namespace Webfucktory\PackageName\Tests\Unit;
+namespace Webfucktory\Laravel\Authorization\Tests\Unit;
 
 use PHPUnit\Framework\TestCase;
 
