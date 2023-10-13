@@ -1,4 +1,4 @@
-# Package Name
+# Laravel Authorization
 
 [![Latest Version](http://img.shields.io/packagist/v/webfucktory/laravel-authorization.svg?label=Release&style=for-the-badge)](https://packagist.org/packages/webfucktory/laravel-authorization)
 [![MIT License](https://img.shields.io/github/license/webfucktory/laravel-authorization.svg?label=License&color=blue&style=for-the-badge)](https://github.com/webfucktory/laravel-authorization/blob/master/LICENSE.md)
