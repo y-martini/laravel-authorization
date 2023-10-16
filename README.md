@@ -23,14 +23,14 @@ https://laravel.com/docs/master/authorization#authorizing-actions-using-policies
 
 #### U/ A/ Example
 
-`app/Models/User.php`:
+`-+ app/Models/User.php`:
 
 ```php
 <?php
 
 namespace App\Models;
 
-class User 
+class User
     implements \YuriyMartini\Laravel\Authorization\Contracts\Authorizable
 {
     use \YuriyMartini\Laravel\Authorization\Concerns\Authorizable;
@@ -53,7 +53,8 @@ php artisan vendor:publish --tag=authorization-models-config
 
 #### U/ C/ M/ Example
 
-`config/authorization/models.php`:
+`+ config/authorization/models.php`:
+
 ```php
 <?php
 
