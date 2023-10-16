@@ -67,6 +67,60 @@ return [
 ];
 ```
 
+### U/ Models
+
+#### U/ M/ Example
+
+`+ app/Models/User/Authorizations.php`:
+
+```php
+<?php
+
+namespace App\Models\User;
+
+trait Authorizations
+{
+    public function isViewable(Authorizable $user): bool
+    {
+        return true; // here: ur BL
+    }
+
+    public function isUpdatable(Authorizable $user): bool
+    {
+        return true; // here: ur BL
+    }
+
+    public function isDeletable(Authorizable $user): bool
+    {
+        return true; // here: ur BL
+    }
+
+    public function isRestorable(Authorizable $user): bool
+    {
+        return true; // here: ur BL
+    }
+
+    public function isForceDeletable(Authorizable $user): bool
+    {
+        return true; // here: ur BL
+    }
+}
+```
+
+`-+ app/Models/User.php`:
+
+```php
+<?php
+
+namespace App\Models;
+
+class User
+    implements \YuriyMartini\Laravel\Authorization\Contracts\Model
+{
+    use \App\Models\User\Authorizations;
+}
+```
+
 ### U/ Policies
 
 https://laravel.com/docs/master/authorization#generating-policies
