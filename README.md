@@ -73,14 +73,14 @@ https://laravel.com/docs/master/authorization#generating-policies
 
 #### U/ P/ Example
 
-`app/Policies/UserPolicy.php`:
+`-+ app/Policies/UserPolicy.php`:
 
 ```php
 <?php
  
 namespace App\Policies;
  
-class UserPolicy 
+class UserPolicy
     extends \YuriyMartini\Laravel\Authorization\Policy
 {
     protected static function getModel(): string
