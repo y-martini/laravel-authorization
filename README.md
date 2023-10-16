@@ -41,13 +41,13 @@ class User
 
 #### U/ C/ Defaults
 
-```php
+```shell
 php artisan vendor:publish --tag=authorization-defaults-config
 ```
 
 #### U/ C/ Models
 
-```php
+```shell
 php artisan vendor:publish --tag=authorization-models-config
 ```
 
