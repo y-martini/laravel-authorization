@@ -1,12 +1,12 @@
 # Laravel Authorization
 
-[![Latest Version](http://img.shields.io/packagist/v/webfucktory/laravel-authorization.svg?label=Release&style=for-the-badge)](https://packagist.org/packages/webfucktory/laravel-authorization)
-[![MIT License](https://img.shields.io/github/license/webfucktory/laravel-authorization.svg?label=License&color=blue&style=for-the-badge)](https://github.com/webfucktory/laravel-authorization/blob/master/LICENSE.md)
+[![Latest Version](http://img.shields.io/packagist/v/yuriy-martini/laravel-authorization.svg?label=Release&style=for-the-badge)](https://packagist.org/packages/yuriy-martini/laravel-authorization)
+[![MIT License](https://img.shields.io/github/license/yuriy-martini/laravel-authorization.svg?label=License&color=blue&style=for-the-badge)](https://github.com/yuriy-martini/laravel-authorization/blob/master/LICENSE.md)
 
 ## Installation
 
 ```shell
-composer require webfucktory/laravel-authorization
+composer require yuriy-martini/laravel-authorization
 ```
 
 ## Usage

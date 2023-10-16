@@ -1,6 +1,6 @@
 <?php
 
-namespace Webfucktory\Laravel\Authorization;
+namespace YuriyMartini\Laravel\Authorization;
 
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\ServiceProvider as BaseServiceProvider;

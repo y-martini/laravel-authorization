@@ -1,11 +1,11 @@
 <?php
 
-namespace Webfucktory\Laravel\Authorization\Concerns;
+namespace YuriyMartini\Laravel\Authorization\Concerns;
 
 use Illuminate\Support\Facades\Config;
-use Webfucktory\Laravel\Authorization\Contracts\Model;
-use Webfucktory\Laravel\Authorization\Contracts\Authorizable;
-use Webfucktory\Laravel\Authorization\Enums\Permission;
+use YuriyMartini\Laravel\Authorization\Contracts\Model;
+use YuriyMartini\Laravel\Authorization\Contracts\Authorizable;
+use YuriyMartini\Laravel\Authorization\Enums\Permission;
 
 trait ModelAuthorization
 {

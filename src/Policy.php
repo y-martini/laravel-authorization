@@ -1,9 +1,9 @@
 <?php
 
-namespace Webfucktory\Laravel\Authorization;
+namespace YuriyMartini\Laravel\Authorization;
 
-use Webfucktory\Laravel\Authorization\Concerns\ModelAuthorization;
-use Webfucktory\Laravel\Authorization\Contracts\Authorizable;
+use YuriyMartini\Laravel\Authorization\Concerns\ModelAuthorization;
+use YuriyMartini\Laravel\Authorization\Contracts\Authorizable;
 
 abstract class Policy
 {

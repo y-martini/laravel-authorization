@@ -1,5 +1,5 @@
 {
-    "name": "webfucktory/laravel-authorization",
+    "name": "yuriy-martini/laravel-authorization",
     "require": {
         "php": "^8.2",
         "illuminate/support": "^10"
@@ -11,12 +11,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Webfucktory\\Laravel\\Authorization\\": "src"
+            "YuriyMartini\\Laravel\\Authorization\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Webfucktory\\Laravel\\Authorization\\Tests\\": "tests"
+            "YuriyMartini\\Laravel\\Authorization\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -25,7 +25,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Webfucktory\\Laravel\\Authorization\\ServiceProvider"
+                "YuriyMartini\\Laravel\\Authorization\\ServiceProvider"
             ]
         }
     },

@@ -1,9 +1,9 @@
 <?php
 
-namespace Webfucktory\Laravel\Authorization\Tests;
+namespace YuriyMartini\Laravel\Authorization\Tests;
 
 use Orchestra\Testbench\TestCase as BaseTestCase;
-use Webfucktory\Laravel\Authorization\ServiceProvider;
+use YuriyMartini\Laravel\Authorization\ServiceProvider;
 
 abstract class TestCase extends BaseTestCase
 {

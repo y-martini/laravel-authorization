@@ -1,6 +1,6 @@
 <?php
 
-namespace Webfucktory\Laravel\Authorization\Contracts;
+namespace YuriyMartini\Laravel\Authorization\Contracts;
 
 interface Model
 {

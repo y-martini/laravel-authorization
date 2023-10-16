@@ -1,6 +1,6 @@
 <?php
 
-namespace Webfucktory\Laravel\Authorization\Enums;
+namespace YuriyMartini\Laravel\Authorization\Enums;
 
 enum Permission
 {
