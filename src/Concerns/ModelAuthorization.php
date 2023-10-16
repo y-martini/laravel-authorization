@@ -11,27 +11,37 @@ trait ModelAuthorization
 {
     protected static function modelIsDeletable(object $model, Authorizable $user): bool
     {
-        return $model instanceof Model ? $model->isDeletable($user) : static::defaultModelAuthorization(Permission::delete);
+        return $model instanceof Model
+            ? $model->isDeletable($user)
+            : static::defaultModelAuthorization(Permission::delete);
     }
 
     protected static function modelIsForceDeletable(object $model, Authorizable $user): bool
     {
-        return $model instanceof Model ? $model->isForceDeletable($user) : static::defaultModelAuthorization(Permission::forceDelete);
+        return $model instanceof Model
+            ? $model->isForceDeletable($user)
+            : static::defaultModelAuthorization(Permission::forceDelete);
     }
 
     protected static function modelIsRestorable(object $model, Authorizable $user): bool
     {
-        return $model instanceof Model ? $model->isRestorable($user) : static::defaultModelAuthorization(Permission::restore);
+        return $model instanceof Model
+            ? $model->isRestorable($user)
+            : static::defaultModelAuthorization(Permission::restore);
     }
 
     protected static function modelIsUpdatable(object $model, Authorizable $user): bool
     {
-        return $model instanceof Model ? $model->isUpdatable($user) : static::defaultModelAuthorization(Permission::update);
+        return $model instanceof Model
+            ? $model->isUpdatable($user)
+            : static::defaultModelAuthorization(Permission::update);
     }
 
     protected static function modelIsViewable(object $model, Authorizable $user): bool
     {
-        return $model instanceof Model ? $model->isViewable($user) : static::defaultModelAuthorization(Permission::view);
+        return $model instanceof Model
+            ? $model->isViewable($user)
+            : static::defaultModelAuthorization(Permission::view);
     }
 
     private static function defaultModelAuthorization(Permission $permission): bool
